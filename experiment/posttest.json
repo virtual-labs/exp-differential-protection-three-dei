@@ -1,39 +1,96 @@
 {
   "version": 2.0,
+  "quiz_title": "QUIZ - Differential Protection of Transformer",
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "num": 6,
+      "question": "A differential protection protect transformer from the following fault-",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Over current due to overloads and external short circuits",
+        "b": "Interturn faults",
+        "c": "Oil leakage faults",
+        "d": "Incipient internal faults"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Differential protection does not respond to external faults or overloads (through fault condition).",
+        "b": "Incorrect. Small interturn faults may not be detected by differential protection.",
+        "c": "Incorrect. Oil leakage is detected by Buchholz relay, not differential protection.",
+        "d": "Correct. Differential protection detects incipient internal faults (winding insulation breakdown, core faults, etc.) that cause current imbalance."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "num": 7,
+      "question": "How does the tap changing effect of transformer can be nullify in differential protection of transformer:",
+      "answers": {
+        "a": "By changing CT ratios;",
+        "b": "Using restraining coil",
+        "c": "Providing tappings in relay coil",
+        "d": "none of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. Changing CT ratios for each tap position is impractical.",
+        "b": "Correct. Percentage differential relay uses a restraining coil (bias coil) to desensitize the relay for through faults and tap changing effects.",
+        "c": "Incorrect. Tappings in relay coil is not standard practice.",
+        "d": "Incorrect because restraining coil is the correct method."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "num": 8,
+      "question": "In pole mounted substation, which protection is used:",
+      "answers": {
+        "a": "differential protection",
+        "b": "Earth fault protection",
+        "c": "DO Fuses",
+        "d": "Buchholz relay"
+      },
+      "explanations": {
+        "a": "Incorrect. Differential protection is used for large transformers (>5 MVA), not for pole mounted substations.",
+        "b": "Incorrect. Earth fault protection may be present but is not the primary answer.",
+        "c": "Correct. Pole mounted substations (distribution transformers up to 100-200 kVA) typically use Dropout (DO) fuses for protection.",
+        "d": "Incorrect. Buchholz relay is used on oil filled transformers above 500 kVA with conservator tanks."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "num": 9,
+      "question": "The differential protection is used for which type of transformer:",
+      "answers": {
+        "a": "Oil cooled Transformer",
+        "b": "Air cooled Transformer",
+        "c": "SF6 gas cooled Transformer",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Partial. Differential protection is used for oil cooled transformers above 5 MVA.",
+        "b": "Partial. Also used for air cooled (dry type) transformers above certain rating.",
+        "c": "Partial. Also used for SF6 cooled transformers.",
+        "d": "Correct. Differential protection can be applied to any type of transformer (oil cooled, air cooled, SF6 cooled) regardless of cooling medium, provided the rating justifies it."
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "num": 10,
+      "question": "In differential protection the relay is connected:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Near Current Transformer",
+        "b": "Near Transformer bushings",
+        "c": "At equipotential point of pilot wire",
+        "d": "Near transformer tank"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. The relay is not necessarily near the CT.",
+        "b": "Incorrect.",
+        "c": "Correct. The differential relay is connected at the equipotential point of the pilot wires (the common point where secondary currents from both CTs are compared).",
+        "d": "Incorrect."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "advanced"
     }
   ]
 }
