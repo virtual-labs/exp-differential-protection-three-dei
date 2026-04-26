@@ -1,5 +1,5 @@
 
-### Procedure
+# Procedure
 
 1. Switch ON CB for input supply
 2. Press the start button.
