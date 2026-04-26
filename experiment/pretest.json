@@ -1,7 +1,6 @@
 {
   "version": 2.0,
-  "quiz_title": "QUIZ - Differential Protection of Transformer",
-  "questions": [
+ "questions": [
     {
       "num": 1,
       "question": "Differential protection should be provided in the transformers whose rating:",
