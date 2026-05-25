@@ -23,12 +23,12 @@ A differential relay is one that operates when the phase difference between the 
 
 # Equipments Required 
 
-<center>
-
+<div style="text-align: center;">
+  
 | Equipment | Image |
-| :--- | :--- |
+| :---: | :---: |
 | **Fig.1: Transformer** | ![Transformer](images/exp10/Transformer.jpg) |
 | **Fig.2: Current Transformer (CT)** | ![Current Transformer](images/exp10/CT.jpg) |
 | **Fig.3: Relay** | ![Relay](images/exp10/relay.jpg) |
 
-</center>
+</div>
