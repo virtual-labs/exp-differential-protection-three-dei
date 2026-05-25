@@ -1,1 +1,296 @@
+/* Modern Light Theme for Simulation 10 */
+:root {
+    --bg-light: #f8fafc;
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #64748b;
+    --primary: #3b82f6;
+    --primary-hover: #2563eb;
+    --danger: #ef4444;
+    --danger-hover: #dc2626;
+    --success: #10b981;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-light);
+    color: var(--text-primary);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    margin: 0;
+}
+
+/* Lab Header Style */
+.lab-header {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lab-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.lab-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.lab-logo i {
+    color: var(--primary);
+    font-size: 1.6rem;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+}
+
+.lab-logo h2 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.lab-title h1 {
+    font-size: 1.5rem !important;
+    color: var(--text-primary) !important;
+    margin: 0 !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-weight: 700 !important;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* Layout overrides */
+.Container {
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    padding: 0 1rem !important;
+}
+
+.jumbotron {
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .jumbotron > .row {
+        display: grid !important;
+        grid-template-columns: 280px 280px 1fr !important;
+        gap: 2rem !important;
+    }
+    
+    .jumbotron > .row > .col-md-2 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+    }
+    
+    .jumbotron > .row > .col-md-8 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+        margin-left: 0 !important; /* override original negative margin */
+    }
+}
+
+/* Connection Panel Card Style */
+div.Connection {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.02), 0 4px 6px -4px rgba(0, 0, 0, 0.02) !important;
+    padding: 1.5rem 1rem !important;
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+/* Fault Box Card Style */
+.FaultBox1, .FaultBox2, .FaultBox3, .FaultBox4 {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.02), 0 4px 6px -4px rgba(0, 0, 0, 0.02) !important;
+    padding: 1.5rem 1rem !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 1rem !important;
+    display: none;
+}
+
+/* Typography styles */
+.col-md-2 h1 {
+    font-size: 1.1rem !important;
+    color: var(--text-secondary) !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 1.2rem !important;
+    font-family: 'Outfit', sans-serif !important;
+    text-align: center !important;
+    line-height: 1.4 !important;
+    min-height: 3.2rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.col-md-2 h3 {
+    font-size: 1.1rem !important;
+    color: var(--text-secondary) !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 1.2rem !important;
+    font-family: 'Outfit', sans-serif !important;
+    text-align: center !important;
+    line-height: 1.4 !important;
+    min-height: 3.2rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+h4 {
+    font-size: 1rem !important;
+    color: var(--text-primary) !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+    font-family: 'Outfit', sans-serif !important;
+    text-align: center !important;
+    text-transform: capitalize !important;
+}
+
+/* Reset and Style List Items */
+ul {
+    padding-left: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 0.5rem !important;
+}
+
+li {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* Button Premium styling */
+button {
+    text-align: center !important;
+    background-color: #f8fafc !important;
+    border-radius: 8px !important;
+    height: 42px !important;
+    width: 90% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    color: var(--text-secondary) !important;
+    font-size: 14px !important;
+    font-family: 'Outfit', sans-serif !important;
+    border: 1px solid #cbd5e1 !important;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    font-weight: 500 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+button:hover {
+    background-color: #f1f5f9 !important;
+    border: 1px solid #94a3b8 !important;
+    transform: translateY(-1px) !important;
+    width: 90% !important;
+    height: 42px !important;
+    margin-left: 0 !important;
+    font-size: 14px !important;
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* Active buttons when script sets background to burlywood */
+.Connection button[style*="burlywood"] {
+    background-color: var(--primary) !important;
+    color: #ffffff !important;
+    border-color: var(--primary-hover) !important;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.25) !important;
+    font-weight: 600 !important;
+}
+
+[class^="FaultBox"] button[style*="burlywood"] {
+    background-color: var(--danger) !important;
+    color: #ffffff !important;
+    border-color: var(--danger-hover) !important;
+    box-shadow: 0 4px 10px rgba(239, 68, 68, 0.25) !important;
+    font-weight: 600 !important;
+}
+
+/* Image Showcase styling */
+.imagebox {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 20px !important;
+    padding: 2.5rem !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05) !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 3rem !important;
+    min-height: 520px !important;
+    flex-wrap: nowrap !important;
+}
+
+.imabox {
+    margin: 0 !important;
+    float: none !important;
+    height: auto !important;
+    width: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-width: 0 !important;
+}
+
+#image1 {
+    max-height: 480px !important;
+    width: auto !important;
+    object-fit: contain !important;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.05)) !important;
+    transition: all 0.2s ease !important;
+    flex-shrink: 0 !important;
+}
+
+#image {
+    max-height: 480px !important;
+    max-width: 100% !important;
+    width: auto !important;
+    object-fit: contain !important;
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.08)) !important;
+    transition: all 0.2s ease !important;
+}
 
