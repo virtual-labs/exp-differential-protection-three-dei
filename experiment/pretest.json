@@ -2,8 +2,8 @@
   "version": 2.0,
  "questions": [
     {
-      "num": 1,
-      "question": "Differential protection should be provided in the transformers whose rating:",
+   
+      "question": "1. Differential protection should be provided in the transformers whose rating:",
       "answers": {
         "a": "Above 5 MVA",
         "b": "Below 5 MVA",
@@ -21,7 +21,7 @@
     },
     {
       "num": 2,
-      "question": "The differential protection of transformer does not cover the following fault:",
+      "question": "2. The differential protection of transformer does not cover the following fault:",
       "answers": {
         "a": "Winding to ground fault",
         "b": "Winding to winding faults",
@@ -39,7 +39,7 @@
     },
     {
       "num": 3,
-      "question": "Which type of connection is employed for current transformers for the protection of Delta-Star connected 3-phase transformer:",
+      "question": "3. Which type of connection is employed for current transformers for the protection of Delta-Star connected 3-phase transformer:",
       "answers": {
         "a": "Delta-Star",
         "b": "Star-Delta",
@@ -57,7 +57,7 @@
     },
     {
       "num": 4,
-      "question": "Which Differential protection principle is used in the protection of transformer:",
+      "question": "4. Which Differential protection principle is used in the protection of transformer:",
       "answers": {
         "a": "Current difference",
         "b": "Voltage difference",
@@ -75,7 +75,7 @@
     },
     {
       "num": 5,
-      "question": "In differential protection of transformer the CTs on both side of transformer are:",
+      "question": "5. In differential protection of transformer the CTs on both side of transformer are:",
       "answers": {
         "a": "Identically same",
         "b": "Their turns ratio has inverse relation",
