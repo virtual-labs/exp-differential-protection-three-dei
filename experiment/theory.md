@@ -15,9 +15,11 @@ Power transformers are classified as one of the most valuable equipment in a pow
 
 ![Diagram of Biased Differential Protection](images/exp10/fig1.jpg)
 
-</center>
+
 
 *Diagram of Biased Differential Protection*
+
+</center>
 
 A differential relay is one that operates when the phase difference between the two or more similar electrical quantities exceeds a pre-determined value.
 
