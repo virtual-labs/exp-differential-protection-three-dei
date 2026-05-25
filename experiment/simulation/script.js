@@ -81,7 +81,7 @@ function imachange5() {
 
 function fault11() {
     document.getElementById("image").src = "images/Fault/Star_Star/LG.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button11").style.background = "burlywood";
     document.getElementById("button12").style.background = "#fff";
     document.getElementById("button13").style.background = "#fff";
@@ -90,7 +90,7 @@ function fault11() {
 
 function fault12() {
     document.getElementById("image").src = "images/Fault/Star_Star/LL.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button11").style.background = "#fff";
     document.getElementById("button12").style.background = "burlywood";
     document.getElementById("button13").style.background = "#fff";
@@ -99,7 +99,7 @@ function fault12() {
 
 function fault13() {
     document.getElementById("image").src = "images/Fault/Star_Star/LLL.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button11").style.background = "#fff";
     document.getElementById("button12").style.background = "#fff";
     document.getElementById("button13").style.background = "burlywood";
@@ -108,7 +108,7 @@ function fault13() {
 
 function fault14() {
     document.getElementById("image").src = "images/Fault/Star_Star/LLLG.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button11").style.background = "#fff";
     document.getElementById("button12").style.background = "#fff";
     document.getElementById("button13").style.background = "#fff";
@@ -119,7 +119,7 @@ function fault14() {
 
 function fault21() {
     document.getElementById("image").src = "images/Fault/Star_Delta/LG.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button21").style.background = "burlywood";
     document.getElementById("button22").style.background = "#fff";
     document.getElementById("button23").style.background = "#fff";
@@ -128,7 +128,7 @@ function fault21() {
 
 function fault22() {
     document.getElementById("image").src = "images/Fault/Star_Delta/LL.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button21").style.background = "#fff";
     document.getElementById("button22").style.background = "burlywood";
     document.getElementById("button23").style.background = "#fff";
@@ -137,7 +137,7 @@ function fault22() {
 
 function fault23() {
     document.getElementById("image").src = "images/Fault/Star_Delta/LLL.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button21").style.background = "#fff";
     document.getElementById("button22").style.background = "#fff";
     document.getElementById("button23").style.background = "burlywood";
@@ -146,7 +146,7 @@ function fault23() {
 
 function fault24() {
     document.getElementById("image").src = "images/Fault/Star_Delta/LLLG.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button21").style.background = "#fff";
     document.getElementById("button22").style.background = "#fff";
     document.getElementById("button23").style.background = "#fff";
@@ -157,7 +157,7 @@ function fault24() {
 
 function fault31() {
     document.getElementById("image").src = "images/Fault/Delta_Star/LG.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button31").style.background = "burlywood";
     document.getElementById("button32").style.background = "#fff";
     document.getElementById("button33").style.background = "#fff";
@@ -166,7 +166,7 @@ function fault31() {
 
 function fault32() {
     document.getElementById("image").src = "images/Fault/Delta_Star/LL.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button31").style.background = "#fff";
     document.getElementById("button32").style.background = "burlywood";
     document.getElementById("button33").style.background = "#fff";
@@ -175,7 +175,7 @@ function fault32() {
 
 function fault33() {
     document.getElementById("image").src = "images/Fault/Delta_Star/LLL.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button31").style.background = "#fff";
     document.getElementById("button32").style.background = "#fff";
     document.getElementById("button33").style.background = "burlywood";
@@ -184,7 +184,7 @@ function fault33() {
 
 function fault34() {
     document.getElementById("image").src = "images/Fault/Delta_Star/LLLG.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button31").style.background = "#fff";
     document.getElementById("button32").style.background = "#fff";
     document.getElementById("button33").style.background = "#fff";
@@ -195,7 +195,7 @@ function fault34() {
 
 function fault41() {
     document.getElementById("image").src = "images/Fault/Delta_Delta/LG.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button41").style.background = "burlywood";
     document.getElementById("button42").style.background = "#fff";
     document.getElementById("button43").style.background = "#fff";
@@ -204,7 +204,7 @@ function fault41() {
 
 function fault42() {
     document.getElementById("image").src = "images/Fault/Delta_Delta/LL.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button41").style.background = "#fff";
     document.getElementById("button42").style.background = "burlywood";
     document.getElementById("button43").style.background = "#fff";
@@ -213,7 +213,7 @@ function fault42() {
 
 function fault43() {
     document.getElementById("image").src = "images/Fault/Delta_Delta/LLL.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button41").style.background = "#fff";
     document.getElementById("button42").style.background = "#fff";
     document.getElementById("button43").style.background = "burlywood";
@@ -222,7 +222,7 @@ function fault43() {
 
 function fault44() {
     document.getElementById("image").src = "images/Fault/Delta_Delta/LLLG.png";
-    document.getElementById("image1").src = "images/plu/Off.png";
+    document.getElementById("image1").src = "images/plu/off.png";
     document.getElementById("button41").style.background = "#fff";
     document.getElementById("button42").style.background = "#fff";
     document.getElementById("button43").style.background = "#fff";
