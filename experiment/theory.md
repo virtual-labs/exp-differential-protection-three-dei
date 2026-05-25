@@ -1,4 +1,4 @@
-# Experiment 10: Theory and Procedure
+
 
 ## Theory: Differential Protection
 
@@ -16,7 +16,7 @@ Power transformers are classified as one of the most valuable equipment in a pow
 
 A differential relay is one that operates when the phase difference between the two or more similar electrical quantities exceeds a pre-determined value.
 
-# Equipments Required in Experiment - 10
+# Equipments Required 
 
 | Equipment | Image |
 | :--- | :--- |
