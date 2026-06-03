@@ -23,3 +23,13 @@ It is observed that when any fault takes place in the protected zone (i.e., betw
 **Fig. 10.1: Circuit diagram of differential protection of transformer**
 
 </center>
+
+## Video for experiment:
+
+<br/><br/><br/>
+<div style="text-align: center;">
+    <b style="font-size:18px"> To study the differential Protection of a three phase delta-delta connected transformer.</b><br/><br/>
+    <video width="480" height="360" controls>
+        <source src="videos/Exp10.mp4" type="video/mp4">
+    </video>
+</div>
