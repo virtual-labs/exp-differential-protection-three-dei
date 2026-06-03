@@ -1,6 +1,6 @@
 
 
-## Theory: Differential Protection
+## Theory
 
 A transformer is a static device totally enclosed and generally oil-immersed. Thus, chances of fault occurrence on them are rare. However, consequences even so, could be very serious unless the transformer is quickly disconnected from the system.
 
