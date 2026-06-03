@@ -20,7 +20,7 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 2,
+     
       "question": "2. The differential protection of transformer does not cover the following fault:",
       "answers": {
         "a": "Winding to ground fault",
@@ -38,7 +38,7 @@
       "difficulty": "advanced"
     },
     {
-      "num": 3,
+     
       "question": "3. Which type of connection is employed for current transformers for the protection of Delta-Star connected 3-phase transformer:",
       "answers": {
         "a": "Delta-Star",
@@ -56,7 +56,7 @@
       "difficulty": "intermediate"
     },
     {
-      "num": 4,
+     
       "question": "4. Which Differential protection principle is used in the protection of transformer:",
       "answers": {
         "a": "Current difference",
@@ -74,7 +74,7 @@
       "difficulty": "beginner"
     },
     {
-      "num": 5,
+    
       "question": "5. In differential protection of transformer the CTs on both side of transformer are:",
       "answers": {
         "a": "Identically same",
