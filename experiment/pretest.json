@@ -1,8 +1,7 @@
 {
   "version": 2.0,
- "questions": [
+  "questions": [
     {
-   
       "question": "1. Differential protection should be provided in the transformers whose rating:",
       "answers": {
         "a": "Above 5 MVA",
@@ -16,11 +15,9 @@
         "c": "Incorrect. 50 MVA is too high a threshold; differential protection is needed above 5 MVA.",
         "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "correctAnswer": "a"
     },
     {
-     
       "question": "2. The differential protection of transformer does not cover the following fault:",
       "answers": {
         "a": "Winding to ground fault",
@@ -34,11 +31,9 @@
         "c": "Correct. Small inter-turn faults may not produce sufficient differential current as the turns ratio change is small.",
         "d": "Incorrect. Bushing faults are in the protected zone if CTs are on both sides of bushings."
       },
-      "correctAnswer": "c",
-      "difficulty": "advanced"
+      "correctAnswer": "c"
     },
     {
-     
       "question": "3. Which type of connection is employed for current transformers for the protection of Delta-Star connected 3-phase transformer:",
       "answers": {
         "a": "Delta-Star",
@@ -52,11 +47,9 @@
         "c": "Incorrect.",
         "d": "Incorrect."
       },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "correctAnswer": "b"
     },
     {
-     
       "question": "4. Which Differential protection principle is used in the protection of transformer:",
       "answers": {
         "a": "Current difference",
@@ -70,11 +63,9 @@
         "c": "Incorrect.",
         "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "a"
     },
     {
-    
       "question": "5. In differential protection of transformer the CTs on both side of transformer are:",
       "answers": {
         "a": "Identically same",
@@ -88,8 +79,7 @@
         "c": "Incorrect. There is a definite relationship.",
         "d": "Incorrect."
       },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "correctAnswer": "b"
     }
   ]
 }
