@@ -1,0 +1,80 @@
+
+/home/runner/work/exp-differential-protection-three-dei/exp-differential-protection-three-dei/experiment/simulation/jquery.min.js
+  2:71     warning  'module' is not defined                                                    no-undef
+  2:86     warning  'module' is not defined                                                    no-undef
+  2:5774   warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+  2:6247   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6501   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6932   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7158   warning  Empty block statement                                                      no-empty
+  2:7720   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9786   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:10096  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11897  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12473  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12511  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12929  warning  Empty block statement                                                      no-empty
+  2:13543  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13855  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15679  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15950  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16150  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16526  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:17229  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19571  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19671  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19731  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21090  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21704  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21815  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24136  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:24200  warning  Unnecessary escape character: \[                                           no-useless-escape
+  2:24202  warning  Unnecessary escape character: \.                                           no-useless-escape
+  3:1907   warning  Empty block statement                                                      no-empty
+  3:5602   warning  Unnecessary escape character: \/                                           no-useless-escape
+  3:6813   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:6953   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:7591   warning  Empty block statement                                                      no-empty
+  3:14345  warning  Unnecessary escape character: \/                                           no-useless-escape
+  3:16613  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:18185  warning  Empty block statement                                                      no-empty
+  3:25385  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:27946  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:246    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1955   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2021   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2360   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2426   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2843   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:3120   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:8856   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:11348  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:12069  warning  'j.href' is assigned to itself                                             no-self-assign
+  4:15632  warning  Empty block statement                                                      no-empty
+  4:22290  warning  'define' is not defined                                                    no-undef
+  4:22302  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-differential-protection-three-dei/exp-differential-protection-three-dei/experiment/simulation/script.js
+   35:10  warning  'imachange2' is defined but never used  no-unused-vars
+   46:10  warning  'imachange3' is defined but never used  no-unused-vars
+   57:10  warning  'imachange4' is defined but never used  no-unused-vars
+   68:10  warning  'imachange5' is defined but never used  no-unused-vars
+   82:10  warning  'fault11' is defined but never used     no-unused-vars
+   91:10  warning  'fault12' is defined but never used     no-unused-vars
+  100:10  warning  'fault13' is defined but never used     no-unused-vars
+  109:10  warning  'fault14' is defined but never used     no-unused-vars
+  120:10  warning  'fault21' is defined but never used     no-unused-vars
+  129:10  warning  'fault22' is defined but never used     no-unused-vars
+  138:10  warning  'fault23' is defined but never used     no-unused-vars
+  147:10  warning  'fault24' is defined but never used     no-unused-vars
+  158:10  warning  'fault31' is defined but never used     no-unused-vars
+  167:10  warning  'fault32' is defined but never used     no-unused-vars
+  176:10  warning  'fault33' is defined but never used     no-unused-vars
+  185:10  warning  'fault34' is defined but never used     no-unused-vars
+  196:10  warning  'fault41' is defined but never used     no-unused-vars
+  205:10  warning  'fault42' is defined but never used     no-unused-vars
+  214:10  warning  'fault43' is defined but never used     no-unused-vars
+  223:10  warning  'fault44' is defined but never used     no-unused-vars
+
+✖ 73 problems (0 errors, 73 warnings)
+
