@@ -3,7 +3,7 @@
   "questions": [
     {
    
-      "question": "6. A differential protection protect transformer from the following fault-",
+      "question": "1. A differential protection protect transformer from the following fault-",
       "answers": {
         "a": "Over current due to overloads and external short circuits",
         "b": "Interturn faults",
@@ -21,7 +21,7 @@
     },
     {
       
-      "question": "7. How does the tap changing effect of transformer can be nullify in differential protection of transformer:",
+      "question": "2. How does the tap changing effect of transformer can be nullify in differential protection of transformer:",
       "answers": {
         "a": "By changing CT ratios;",
         "b": "Using restraining coil",
@@ -39,7 +39,7 @@
     },
     {
     
-      "question": "8. In pole mounted substation, which protection is used:",
+      "question": "3. In pole mounted substation, which protection is used:",
       "answers": {
         "a": "differential protection",
         "b": "Earth fault protection",
@@ -57,7 +57,7 @@
     },
     {
     
-      "question": "9. The differential protection is used for which type of transformer:",
+      "question": "4. The differential protection is used for which type of transformer:",
       "answers": {
         "a": "Oil cooled Transformer",
         "b": "Air cooled Transformer",
@@ -75,7 +75,7 @@
     },
     {
     
-      "question": "10. In differential protection the relay is connected:",
+      "question": "5. In differential protection the relay is connected:",
       "answers": {
         "a": "Near Current Transformer",
         "b": "Near Transformer bushings",
