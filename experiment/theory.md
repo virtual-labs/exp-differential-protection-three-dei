@@ -23,14 +23,31 @@ Power transformers are classified as one of the most valuable equipment in a pow
 
 A differential relay is one that operates when the phase difference between the two or more similar electrical quantities exceeds a pre-determined value.
 
-# Equipments Required 
+# Equipments Required
 
-<center>
-  
-| Equipment | Image |
-| :---: | :---: |
-| **Fig.1: Transformer** | ![Transformer](images/exp10/Transformer.jpg) |
-| **Fig.2: Current Transformer (CT)** | ![Current Transformer](images/exp10/CT.jpg) |
-| **Fig.3: Relay** | ![Relay](images/exp10/relay.jpg) |
+<div align="center">
 
-</center>
+<table>
+<tr>
+<th>Equipment</th>
+<th>Image</th>
+</tr>
+
+<tr>
+<td><b>Fig.1: Transformer</b></td>
+<td><img src="images/exp10/Transformer.jpg" width="250"></td>
+</tr>
+
+<tr>
+<td><b>Fig.2: Current Transformer (CT)</b></td>
+<td><img src="images/exp10/CT.jpg" width="250"></td>
+</tr>
+
+<tr>
+<td><b>Fig.3: Relay</b></td>
+<td><img src="images/exp10/relay.jpg" width="250"></td>
+</tr>
+
+</table>
+
+</div>
