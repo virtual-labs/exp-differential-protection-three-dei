@@ -2,94 +2,84 @@
   "version": 2.0,
   "questions": [
     {
-   
-      "question": "1. A differential protection protect transformer from the following fault-",
+      "question": "1. Differential protection should be provided in the transformers whose rating:",
       "answers": {
-        "a": "Over current due to overloads and external short circuits",
-        "b": "Interturn faults",
-        "c": "Oil leakage faults",
-        "d": "Incipient internal faults"
+        "a": "Above 5 MVA",
+        "b": "Below 5 MVA",
+        "c": "Above 50 MVA",
+        "d": "Below 50 MVA"
       },
       "explanations": {
-        "a": "Incorrect. Differential protection does not respond to external faults or overloads (through fault condition).",
-        "b": "Incorrect. Small interturn faults may not be detected by differential protection.",
-        "c": "Incorrect. Oil leakage is detected by Buchholz relay, not differential protection.",
-        "d": "Correct. Differential protection detects incipient internal faults (winding insulation breakdown, core faults, etc.) that cause current imbalance."
-      },
-      "correctAnswer": "d",
-      "difficulty": "intermediate"
-    },
-    {
-      
-      "question": "2. How does the tap changing effect of transformer can be nullify in differential protection of transformer:",
-      "answers": {
-        "a": "By changing CT ratios;",
-        "b": "Using restraining coil",
-        "c": "Providing tappings in relay coil",
-        "d": "none of the above"
-      },
-      "explanations": {
-        "a": "Incorrect. Changing CT ratios for each tap position is impractical.",
-        "b": "Correct. Percentage differential relay uses a restraining coil (bias coil) to desensitize the relay for through faults and tap changing effects.",
-        "c": "Incorrect. Tappings in relay coil is not standard practice.",
-        "d": "Incorrect because restraining coil is the correct method."
-      },
-      "correctAnswer": "b",
-      "difficulty": "advanced"
-    },
-    {
-    
-      "question": "3. In pole mounted substation, which protection is used:",
-      "answers": {
-        "a": "differential protection",
-        "b": "Earth fault protection",
-        "c": "DO Fuses",
-        "d": "Buchholz relay"
-      },
-      "explanations": {
-        "a": "Incorrect. Differential protection is used for large transformers (>5 MVA), not for pole mounted substations.",
-        "b": "Incorrect. Earth fault protection may be present but is not the primary answer.",
-        "c": "Correct. Pole mounted substations (distribution transformers up to 100-200 kVA) typically use Dropout (DO) fuses for protection.",
-        "d": "Incorrect. Buchholz relay is used on oil filled transformers above 500 kVA with conservator tanks."
-      },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
-    },
-    {
-    
-      "question": "4. The differential protection is used for which type of transformer:",
-      "answers": {
-        "a": "Oil cooled Transformer",
-        "b": "Air cooled Transformer",
-        "c": "SF6 gas cooled Transformer",
-        "d": "All of the above"
-      },
-      "explanations": {
-        "a": "Partial. Differential protection is used for oil cooled transformers above 5 MVA.",
-        "b": "Partial. Also used for air cooled (dry type) transformers above certain rating.",
-        "c": "Partial. Also used for SF6 cooled transformers.",
-        "d": "Correct. Differential protection can be applied to any type of transformer (oil cooled, air cooled, SF6 cooled) regardless of cooling medium, provided the rating justifies it."
-      },
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
-    
-      "question": "5. In differential protection the relay is connected:",
-      "answers": {
-        "a": "Near Current Transformer",
-        "b": "Near Transformer bushings",
-        "c": "At equipotential point of pilot wire",
-        "d": "Near transformer tank"
-      },
-      "explanations": {
-        "a": "Incorrect. The relay is not necessarily near the CT.",
-        "b": "Incorrect.",
-        "c": "Correct. The differential relay is connected at the equipotential point of the pilot wires (the common point where secondary currents from both CTs are compared).",
+        "a": "Correct. Differential protection is typically provided for transformers rated above 5 MVA as per IEEE/IEC standards.",
+        "b": "Incorrect. Smaller transformers (below 5 MVA) usually use fuses or overcurrent protection.",
+        "c": "Incorrect. 50 MVA is too high a threshold; differential protection is needed above 5 MVA.",
         "d": "Incorrect."
       },
-      "correctAnswer": "c",
-      "difficulty": "advanced"
+      "correctAnswer": "a"
+    },
+    {
+      "question": "2. The differential protection of transformer does not cover the following fault:",
+      "answers": {
+        "a": "Winding to ground fault",
+        "b": "Winding to winding faults",
+        "c": "Inter turn fault in any winding",
+        "d": "Short circuit faults at transformer bushing"
+      },
+      "explanations": {
+        "a": "Incorrect. Winding to ground faults are covered if they cause current difference.",
+        "b": "Incorrect. Winding to winding (phase to phase) faults are covered.",
+        "c": "Correct. Small inter-turn faults may not produce sufficient differential current as the turns ratio change is small.",
+        "d": "Incorrect. Bushing faults are in the protected zone if CTs are on both sides of bushings."
+      },
+      "correctAnswer": "c"
+    },
+    {
+      "question": "3. Which type of connection is employed for current transformers for the protection of Delta-Star connected 3-phase transformer:",
+      "answers": {
+        "a": "Delta-Star",
+        "b": "Star-Delta",
+        "c": "Delta-Delta",
+        "d": "Star-Star"
+      },
+      "explanations": {
+        "a": "Incorrect. Delta-Star for CTs would not correct the phase shift.",
+        "b": "Correct. For a Delta-Star power transformer, CTs are connected in Star on the delta side and Delta on the star side to compensate for 30° phase shift.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "4. Which Differential protection principle is used in the protection of transformer:",
+      "answers": {
+        "a": "Current difference",
+        "b": "Voltage difference",
+        "c": "Power difference",
+        "d": "Power factor difference"
+      },
+      "explanations": {
+        "a": "Correct. Differential protection compares the difference between primary and secondary currents (after magnitude and phase correction).",
+        "b": "Incorrect. Voltage difference is not used for transformer differential protection.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "5. In differential protection of transformer the CTs on both side of transformer are:",
+      "answers": {
+        "a": "Identically same",
+        "b": "Their turns ratio has inverse relation",
+        "c": "Their turns ratio has no relationship",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. CTs cannot be identical because primary currents on HV and LV sides are different.",
+        "b": "Correct. CT turns ratio is inversely proportional to the transformer voltage ratio so that secondary currents are balanced.",
+        "c": "Incorrect. There is a definite relationship.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b"
     }
   ]
 }
