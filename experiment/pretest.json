@@ -2,38 +2,84 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Differential protection should be provided in the transformers whose rating:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Above 5 MVA",
+        "b": "Below 5 MVA",
+        "c": "Above 50 MVA",
+        "d": "Below 50 MVA"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. Differential protection is typically provided for transformers rated above 5 MVA as per IEEE/IEC standards.",
+        "b": "Incorrect. Smaller transformers (below 5 MVA) usually use fuses or overcurrent protection.",
+        "c": "Incorrect. 50 MVA is too high a threshold; differential protection is needed above 5 MVA.",
+        "d": "Incorrect."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "a"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. The differential protection of transformer does not cover the following fault:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Winding to ground fault",
+        "b": "Winding to winding faults",
+        "c": "Inter turn fault in any winding",
+        "d": "Short circuit faults at transformer bushing"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Winding to ground faults are covered if they cause current difference.",
+        "b": "Incorrect. Winding to winding (phase to phase) faults are covered.",
+        "c": "Correct. Small inter-turn faults may not produce sufficient differential current as the turns ratio change is small.",
+        "d": "Incorrect. Bushing faults are in the protected zone if CTs are on both sides of bushings."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "c"
+    },
+    {
+      "question": "3. Which type of connection is employed for current transformers for the protection of Delta-Star connected 3-phase transformer:",
+      "answers": {
+        "a": "Delta-Star",
+        "b": "Star-Delta",
+        "c": "Delta-Delta",
+        "d": "Star-Star"
+      },
+      "explanations": {
+        "a": "Incorrect. Delta-Star for CTs would not correct the phase shift.",
+        "b": "Correct. For a Delta-Star power transformer, CTs are connected in Star on the delta side and Delta on the star side to compensate for 30° phase shift.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b"
+    },
+    {
+      "question": "4. Which Differential protection principle is used in the protection of transformer:",
+      "answers": {
+        "a": "Current difference",
+        "b": "Voltage difference",
+        "c": "Power difference",
+        "d": "Power factor difference"
+      },
+      "explanations": {
+        "a": "Correct. Differential protection compares the difference between primary and secondary currents (after magnitude and phase correction).",
+        "b": "Incorrect. Voltage difference is not used for transformer differential protection.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "a"
+    },
+    {
+      "question": "5. In differential protection of transformer the CTs on both side of transformer are:",
+      "answers": {
+        "a": "Identically same",
+        "b": "Their turns ratio has inverse relation",
+        "c": "Their turns ratio has no relationship",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Incorrect. CTs cannot be identical because primary currents on HV and LV sides are different.",
+        "b": "Correct. CT turns ratio is inversely proportional to the transformer voltage ratio so that secondary currents are balanced.",
+        "c": "Incorrect. There is a definite relationship.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b"
     }
   ]
 }
